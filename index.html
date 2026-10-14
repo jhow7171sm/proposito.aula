@@ -1,63 +1,126 @@
-HTML: 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio-JOAO MARQUES</title>
+    <title>Portfólio - Jhow</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 
-    <header>
-
-    <nav class="cabe"> 
-        <a href="inicio.html" class="home">Home</a>
-        <a href="index2.html" class="sobre">Sobre mim</a> 
-    </nav>
-
+    <header class="cabecalho">
+        <nav class="cabe">
+            <a href="#inicio" class="home">Home</a>
+            <a href="index2.html" class="sobre">Sobre mim</a>
+        </nav>
     </header>
 
-    <main>
+    <main class="container" id="inicio">
 
-        <div class="texto">
+        <section class="apresentacao">
+            <div class="texto">
+                <p class="subtitulo">PORTFÓLIO | DESENVOLVIMENTO WEB</p>
 
-            <h2 class="text">Eleve seu negócio digital <br>
-             a outro nível <span> com um <br>Front-end de qualidade! </span></h2> <br>
- 
-            <br>
-            <br>
+                <h1>
+                    Olá, eu sou <span>Jhow</span>
+                    <br>
+                    <span class="destaque">Desenvolvedor Back-end</span>
+                </h1>
 
-            <p class="text2">
-           Olá! Sou Jhow, desenvolvedor Back-end apaixonado por tecnologia. <br/>Trabalho na criação de sistemas, APIs e soluções eficientes, <br/>
-            buscando sempre desenvolver projetos seguros, organizados e de  <br/>qualidade. Estou sempre aprendendo novas tecnologias e aprimorando <br/>
-            minhas habilidades para transformar ideias em soluções reais. <br/>
+                <p class="text2">
+                    Sou apaixonado por tecnologia e desenvolvimento de sistemas.
+                    Estou aprendendo a criar aplicações, trabalhar com bancos de
+                    dados e desenvolver soluções eficientes. Busco evoluir minhas
+                    habilidades e transformar ideias em projetos reais.
+                </p>
 
+                <div class="butt">
+                    <a href="https://www.instagram.com/instagram"
+                       target="_blank" class="bott1">Instagram</a>
 
-
-</p>
-
-            <br>
-            <br>
-
-            <div class="butt">
-                <a href="https://www.instagram.com/instagram" target="_blank" class="bott1">Instagram</a>
-
-                <a href="https://github.com" target="_blank" class="bott2">GitHub</a>
+                    <a href="https://github.com"
+                       target="_blank" class="bott2">GitHub</a>
+                </div>
             </div>
 
-        </div>
+            <div class="foto">
+                <img class="eu" src="img.jhow/aguia.webp" alt="Imagem do portfólio de Jhow">
+            </div>
+        </section>
 
+        <section class="projetos" id="projetos">
+            <h2><span>|</span> Meus projetos</h2>
 
-         <img class="eu" src="img.jhow/aguia.webp" alt="">
+            <p class="descricao">
+                Conheça alguns projetos que desenvolvi ou estou desenvolvendo
+                durante meus estudos.
+            </p>
 
+            <div class="lista-projetos">
+
+                <article class="card">
+                    <div class="imagem-projeto projeto1">
+                        <span>&lt;/&gt;</span>
+                    </div>
+
+                    <div class="info-projeto">
+                        <h3>Portfólio Pessoal</h3>
+
+                        <p>
+                            Página pessoal desenvolvida para apresentar minhas
+                            habilidades e meus conhecimentos em desenvolvimento web.
+                        </p>
+
+                        <div class="botoes-projeto">
+                            <a href="https://github.com" target="_blank">GitHub</a>
+                            <a href="#inicio">Visualizar</a>
+                        </div>
+
+                        <small>HTML • CSS</small>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="imagem-projeto projeto2">
+                        <span>WEB</span>
+                    </div>
+
+                    <div class="info-projeto">
+                        <h3>Projeto Web</h3>
+
+                        <p>
+                            Projeto de estudos com foco em páginas web,
+                            organização de conteúdo e experiência do usuário.
+                        </p>
+
+                        <div class="botoes-projeto">
+                            <a href="https://github.com" target="_blank">GitHub</a>
+                            <a href="index2.html">Visualizar</a>
+                        </div>
+
+                        <small>HTML • CSS • JavaScript</small>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="tecnologias">
+            <h2><span>|</span> Tecnologias</h2>
+
+            <div class="lista-tecnologias">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>GitHub</span>
+            </div>
+        </section>
 
     </main>
 
     <footer class="roda">
-        <p>Desemvolvido por joao marques </p>
+        <p>Desenvolvido por João Marques</p>
     </footer>
-    
+
 </body>
 </html>
